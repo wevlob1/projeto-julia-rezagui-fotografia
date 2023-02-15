@@ -1,0 +1,102 @@
+.main-sobre{
+    width: 70%;
+    height: max-content;
+    margin: 0 auto;
+
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap :5rem;
+
+    justify-content: center;
+}
+.main-section{
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+}
+main{
+    height: max-content;
+}
+main > h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.main-sobre div {
+    height: 500px;
+    width: 500px;
+}
+.main-sobre div > p{
+    width: 500px;
+    height: 500px;
+    font-size: 2rem;
+}
+.main-img-start{
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+}
+.main-img-end{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    position: relative;
+}
+.main-img-start img,video{
+    height: 100%;
+    
+}
+.main-img-end img,video{
+    width: 100%;
+}
+
+.text-defaut h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.text-defaut h2{
+    font-style: italic;
+    font-size: 2rem;
+}
+.text-defaut p{
+    font-size: 3rem;
+}
+
+
+.element-4 {
+    background: rgba(0, 0, 0, 0.055);
+
+    background-position: center;
+    background-size: cover;
+    width: 120rem;
+    height: 120rem;
+    position: absolute;
+    top:10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+
+    animation: border-fluid 10s linear infinite;
+}
+.element-5 {
+    background: rgba(0, 0, 0, 0.034);
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top:60%;
+    right: 30%;
+    transform: translate(50%,-50%);
+    animation: border-fluid3 10s linear infinite;
+}
+
+
+
+

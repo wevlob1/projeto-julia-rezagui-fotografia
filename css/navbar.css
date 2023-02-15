@@ -1,0 +1,41 @@
+@import url(fonts.css);
+@import url(responsive.css);
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: #ffffd30a;
+}
+.navbar-logo{
+    display: flex;
+    margin-left: 10%;
+}
+
+.navbar-logo h1{
+    display: flex;
+    align-items: center;
+    color : rgb(255, 255, 255);
+}
+header img{
+    margin-left: 10%;
+    height: 5rem;
+}
+header ul{    
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 10%;
+}
+header li{
+    font-family:'Crimson Text', serif;
+    font-weight:800;
+    padding: 0 2rem;
+    font-size: 2.0rem;
+}
+header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* title */
