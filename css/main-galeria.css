@@ -29,9 +29,6 @@
 .main-galeria-photos{
     width: 70%;
     position: relative;    
-
-    padding-bottom: 20px;
-    /* background-color: red; */
     margin: 0 auto;
 
     display: grid;
@@ -41,7 +38,10 @@
     gap: 20px;
 }
 
-
+.g2{
+    position: relative;
+    padding-bottom: 40px;
+}
 
 .main-galeria-card{
     height: 400px;
@@ -60,37 +60,9 @@
 
 .main-wave-3{
     position: relative;
-    top: 0px;
+    top: -2px;
     background-color: transparent;
 }
 
 
-/* ! animação slider */
-.main-galeria-slider{
-    width: 70%;
-    height: 80vh;
-    margin: 40px auto;
-    position: relative;
-    overflow: hidden;
-}
 
-.main-galeria-slide{
-    width: 100%;
-    height: 100%;
-}
-/* slidess */
-#slide-1{
-    background-image: url(../imgs/slider/slide1.jpg);
-}
-
-/* @keyframes slider {
-    25%{
-
-    }
-    50%{
-    }
-    %{
-    }
-    0%{
-    }
-} */
