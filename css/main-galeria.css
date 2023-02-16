@@ -19,7 +19,7 @@
     color:black;
     padding-bottom: 10px;
 }
-.main-galeria-margin p{
+.main-galeria-margin > p{
     font-size: 2rem;
     text-align: center;
     color:black;
