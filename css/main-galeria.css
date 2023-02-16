@@ -19,7 +19,7 @@
     color:black;
     padding-bottom: 10px;
 }
-.main-galeria-margin p{
+.main-galeria-margin > p{
     font-size: 2rem;
     text-align: center;
     color:black;
@@ -56,11 +56,15 @@
     background-color: rgb(255, 255, 255);
 }
 
-
+.main-wave-2{
+    position: relative;
+    bottom:-2px;
+    background-color: transparent;
+}
 
 .main-wave-3{
     position: relative;
-    top: -2px;
+    bottom:1px;
     background-color: transparent;
 }
 
