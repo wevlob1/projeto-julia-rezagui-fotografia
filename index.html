@@ -14,18 +14,23 @@
     <link rel="stylesheet" href="css/main-galeria.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/depoimentos.css">
+    <link rel="stylesheet" href="css/main-servicos.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
     <header>
+        <!-- 
+            ! navbar 
+        -->
         <div class="navbar">
             <div class="navbar-logo">
-                <img src="imgs/main/perfil1.png" alt="">
+                <a href=""><img src="imgs/main/perfil1.png" alt=""></a>
             </div>
             <ul>
                 <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Galeria</a></li>
+                <li><a href="main-sobre">Sobre</a></li>
+                <li><a href="main-galeria">Galeria</a></li>
                 <li><a href="#">Pacotes e serviços</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
@@ -41,13 +46,15 @@
                 <div class="title-text-align">
                     <h1>Júlia Rezagui</h1>
                     <h2>Fotógrafa Profissional</h2>
-                    <p>"Eternizando suas memorias em papel"
-                    <p>
+                    <p>"Eternizando suas memorias em papel"</p>
                 </div>
             </div>
         </div>
     </header>
     <main>
+        <!-- 
+            ! navbar 
+        -->
         <div class="main-section">
             <div class="main-wave-1">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -55,6 +62,7 @@
                         d="M0,128L48,138.7C96,149,192,171,288,176C384,181,480,171,576,144C672,117,768,75,864,80C960,85,1056,139,1152,154.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
                     </path>
                 </svg>
+                
                 <div class="element-4"></div>
                 <div class="element-5"></div>
             </div>
@@ -69,7 +77,8 @@
                         error eligendi eum laboriosam.</p>
                 </div>
                 <div class="main-img-start">
-                    <video src="imgs/sobre/VID-20230211-WA0082.mp4" autoplay infinite muted controls></video>
+                    <video src="imgs/sobre/video-1.mp4" autoplay infinite muted controls>
+                    </video>
                 </div>
                 <div class="main-img-end">
                     <img src="imgs/sobre/1.png" alt="" srcset="">
@@ -85,16 +94,7 @@
             </div>
         </div>
         <!-- 
-            
-
-
-
-
-
-            
-            
-            
-            
+            !
         -->
         <div class="main-galeria">
             <div class="main-wave-2">
@@ -109,22 +109,22 @@
                 <p>"confira alguns de nossos ensaios"</p>
                 <div class="main-galeria-photos">
                     <div class="main-galeria-card">
-                        <img src="imgs/sobre/1.png" alt="" style="height: 100%;">
+                        <img src="imgs/sobre/slide-1.jpg" alt="" style="height: 100%;">
                     </div>
                     <div class="main-galeria-card">
-                        <img src="imgs/sobre/1.png" alt="" style="height: 100%;">
+                        <img src="imgs/sobre/slide-2.jpg" alt="" style="height: 100%;">
                     </div>
                     <div class="main-galeria-card">
-                        <img src="imgs/sobre/1.png" alt="" style="height: 100%;">
+                        <img src="imgs/sobre/slide-3.jpg" alt="" style="height: 100%;">
                     </div>
                     <div class="main-galeria-card">
-                        <img src="imgs/sobre/1.png" alt="" style="height: 100%;">
+                        <img src="imgs/sobre/slide-4.jpg" alt="" style="height: 100%;">
                     </div>
                     <div class="main-galeria-card">
-                        <img src="imgs/sobre/1.png" alt="" style="height: 100%;">
+                        <img src="imgs/sobre/slide-5.jpg" alt="" style="height: 100%;">
                     </div>
                     <div class="main-galeria-card">
-                        <img src="imgs/sobre/1.png" alt="" style="height: 100%;">
+                        <img src="imgs/sobre/slide-6.jpg" alt="" style="height: 100%;">
                     </div>
                     <div class="main-galeria-card">
                         <img src="imgs/sobre/1.png" alt="" style="height: 100%;">
@@ -213,13 +213,13 @@
                 </div>
             </div>
 
-            <div class="main-wave-3">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                    <path fill="#f5f5dc" fill-opacity="1"
-                        d="M0,160L48,160C96,160,192,160,288,133.3C384,107,480,53,576,48C672,43,768,85,864,122.7C960,160,1056,192,1152,186.7C1248,181,1344,139,1392,117.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-                    </path>
-                </svg>
-            </div>
+        </div>
+        <div class="main-wave-3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f5f5dc" fill-opacity="1"
+                    d="M0,160L48,160C96,160,192,160,288,133.3C384,107,480,53,576,48C672,43,768,85,864,122.7C960,160,1056,192,1152,186.7C1248,181,1344,139,1392,117.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+                </path>
+            </svg>
         </div>
         <div class="depoimentos-section">
             <h1 id="title-h1">depoimentos</h1>
@@ -230,7 +230,9 @@
                     <div class="depoimentos-item-comentario">
                         <h2>Júlia rezagui</h2>
                         <p class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos doloribus eligendi excepturi deleniti consectetur saepe pariatur labore velit ratione aperiam illo beatae fugiat quidem expedita tempora voluptas aspernatur, porro repellendus!</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos doloribus
+                            eligendi excepturi deleniti consectetur saepe pariatur labore velit ratione aperiam illo
+                            beatae fugiat quidem expedita tempora voluptas aspernatur, porro repellendus!</p>
                     </div>
                 </div>
                 <div class="depoimentos-item">
@@ -238,7 +240,11 @@
                     <div class="depoimentos-item-comentario">
                         <h2>Giselle</h2>
                         <p class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p class="text">"foi muito tranquilo fazer as fotos, eu estava super perdida sobre como iria ser porque eu nunca tinha participado de nenhum ensaio, e  me deixou sempre super a vontade. Quando eu não sabia que “pose” kk fazer, você sempre me orientava, onde por a mão, ou em que sentido olhar, sempre dava dicas que ia ficar bacana nas fotos, e claro, deixava eu super a vontade se eu quisesse testar alguma foto diferente, você topava tudo hahah"</p>
+                        <p class="text">"foi muito tranquilo fazer as fotos, eu estava super perdida sobre como iria ser
+                            porque eu nunca tinha participado de nenhum ensaio, e me deixou sempre super a vontade.
+                            Quando eu não sabia que “pose” kk fazer, você sempre me orientava, onde por a mão, ou em que
+                            sentido olhar, sempre dava dicas que ia ficar bacana nas fotos, e claro, deixava eu super a
+                            vontade se eu quisesse testar alguma foto diferente, você topava tudo hahah"</p>
                     </div>
                 </div>
                 <div class="depoimentos-item">
@@ -246,7 +252,9 @@
                     <div class="depoimentos-item-comentario">
                         <h2>lorem epsum</h2>
                         <p class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos doloribus eligendi excepturi deleniti consectetur saepe pariatur labore velit ratione aperiam illo beatae fugiat quidem expedita tempora voluptas aspernatur, porro repellendus!</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos doloribus
+                            eligendi excepturi deleniti consectetur saepe pariatur labore velit ratione aperiam illo
+                            beatae fugiat quidem expedita tempora voluptas aspernatur, porro repellendus!</p>
                     </div>
                 </div>
                 <div class="depoimentos-item">
@@ -254,25 +262,47 @@
                     <div class="depoimentos-item-comentario">
                         <h2>lorem epsum</h2>
                         <p class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos doloribus eligendi excepturi deleniti consectetur saepe pariatur labore velit ratione aperiam illo beatae fugiat quidem expedita tempora voluptas aspernatur, porro repellendus!</p>
+                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos doloribus
+                            eligendi excepturi deleniti consectetur saepe pariatur labore velit ratione aperiam illo
+                            beatae fugiat quidem expedita tempora voluptas aspernatur, porro repellendus!</p>
                     </div>
                 </div>
             </div>
+
         </div>
-        
-        <!--
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+
+
+
+        <div class="main-wave-5">
+            <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 210" version="1.1"
+                xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                        <stop stop-color="rgba(0, 0, 0, 1)" offset="0%"></stop>
+                        <stop stop-color="rgba(0, 0, 0, 1)" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                    d="M0,63L26.7,52.5C53.3,42,107,21,160,38.5C213.3,56,267,112,320,122.5C373.3,133,427,98,480,101.5C533.3,105,587,147,640,154C693.3,161,747,133,800,108.5C853.3,84,907,63,960,77C1013.3,91,1067,140,1120,150.5C1173.3,161,1227,133,1280,101.5C1333.3,70,1387,35,1440,45.5C1493.3,56,1547,112,1600,143.5C1653.3,175,1707,182,1760,178.5C1813.3,175,1867,161,1920,150.5C1973.3,140,2027,133,2080,108.5C2133.3,84,2187,42,2240,52.5C2293.3,63,2347,126,2400,154C2453.3,182,2507,175,2560,150.5C2613.3,126,2667,84,2720,87.5C2773.3,91,2827,140,2880,161C2933.3,182,2987,175,3040,168C3093.3,161,3147,154,3200,147C3253.3,140,3307,133,3360,140C3413.3,147,3467,168,3520,150.5C3573.3,133,3627,77,3680,56C3733.3,35,3787,49,3813,56L3840,63L3840,210L3813.3,210C3786.7,210,3733,210,3680,210C3626.7,210,3573,210,3520,210C3466.7,210,3413,210,3360,210C3306.7,210,3253,210,3200,210C3146.7,210,3093,210,3040,210C2986.7,210,2933,210,2880,210C2826.7,210,2773,210,2720,210C2666.7,210,2613,210,2560,210C2506.7,210,2453,210,2400,210C2346.7,210,2293,210,2240,210C2186.7,210,2133,210,2080,210C2026.7,210,1973,210,1920,210C1866.7,210,1813,210,1760,210C1706.7,210,1653,210,1600,210C1546.7,210,1493,210,1440,210C1386.7,210,1333,210,1280,210C1226.7,210,1173,210,1120,210C1066.7,210,1013,210,960,210C906.7,210,853,210,800,210C746.7,210,693,210,640,210C586.7,210,533,210,480,210C426.7,210,373,210,320,210C266.7,210,213,210,160,210C106.7,210,53,210,27,210L0,210Z">
+                </path>
+            </svg>
+        </div>
         <div class="main-servicos">
+            <h1>Pacotes de Serviço</h1>
+            <p>"Mais do que um trabalho, uma paixão por fotografia, uma memória inesquecível para você"</p>
+            <div class="main-servicos-pacotes">
+                <div class="main-servicos-pacote-valor">
+                    <!-- <h1>Plano </h1> -->
+                </div>
+                <div class="main-servicos-pacote-valor">
+                    <!-- <h1>Plano </h1> -->
+                </div>
+                <div class="main-servicos-pacote-valor">
+                    <!-- <h1>Plano </h1> -->
+                </div>
+            </div>
         </div>
+        <!--
         <div class="main-contato">
         </div> 
         -->

@@ -173,4 +173,20 @@
     right: 0px;
 }
 
+.tag{
+    top: -25%;
+    left: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    animation: tag-rotate 5s linear infinite;
+}
 
+@keyframes tag-rotate {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate:360deg;
+    }
+}
