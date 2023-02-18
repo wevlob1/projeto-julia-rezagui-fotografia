@@ -174,12 +174,16 @@
 }
 
 .tag{
-    top: -25%;
-    left: 50%;
-    height: 200px;
-    width: 200px;
+    top: 50px;
+    left: 50px;
+    height: 100px;
+    width: 100px;
     position: absolute;
     animation: tag-rotate 5s linear infinite;
+    filter: invert();
+    background-color: #0000005b;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 @keyframes tag-rotate {

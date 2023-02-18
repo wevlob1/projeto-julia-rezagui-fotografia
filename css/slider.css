@@ -4,7 +4,6 @@ body{
     padding: 0px;
 }
 .main-galeria-slider{
-    background-color: red;
     margin: 20px auto;
     width: 1240px;
     height: 766px;
@@ -50,6 +49,7 @@ input{
 .slide img{
     width: 100%;
     height: 100%;
+    justify-content: center;
 }
 
 
