@@ -179,7 +179,7 @@
     height: 100px;
     width: 100px;
     position: absolute;
-    animation: tag-rotate 5s linear infinite;
+    animation: tag-rotate 60s linear infinite;
     filter: invert();
     background-color: #0000005b;
     padding: 10px;
