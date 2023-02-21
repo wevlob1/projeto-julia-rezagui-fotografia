@@ -1,3 +1,4 @@
+/* ! layout sobre */ 
 .main-sobre{
     width: 70%;
     height: max-content;
@@ -11,65 +12,60 @@
 
     justify-content: center;
 }
-.main-section{
-    position: relative;
-    overflow: hidden;
-    background-color: transparent;
-}
-main{
-    height: max-content;
-}
-main > h1{
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 5rem;
-}
-.main-sobre div {
-    height: 500px;
-    width: 500px;
-}
-.main-sobre div > p{
-    width: 500px;
-    height: 500px;
-    font-size: 2rem;
-}
-.main-img-start{
-    overflow: hidden;
-    display: flex;
-    justify-content:center;
-    flex-direction: column;
-    text-align: left;
-    position: relative;
-}
-.main-img-end{
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: right;
-    position: relative;
-}
-.main-img-start img,video{
-    height: 100%;
-    
-}
-.main-img-end img,video{
-    width: 100%;
-}
-
-.text-defaut h1{
-    font-size: 2.5rem;
+/* !----------- */
+.text-defaut-h1{
+    font-size: 5rem;
     font-weight: 400;
 }
-.text-defaut h2{
+.text-defaut-h2{
     font-style: italic;
-    font-size: 2rem;
-}
-.text-defaut p{
     font-size: 3rem;
 }
+.text-defaut-p{
+    font-size: 2.5rem;
+}
+.main-section{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    
+    display: grid;
+    
+    grid-template-areas:
+            "sobre-ensaio video-ensaio"
+            "video-fotografa sobre-fotografa"
+    ;
+    justify-content: center;
+}
 
+main{
+    width: 100%;
+    height: max-content;
+}
+#item-1,#item-3{
+    display: flex;
+    flex-direction: column;
+}
+#item-2 video,img{
+    width: 100%;
+}
+#item-3 video,img{
+    height: 100%;
+}
+.main-sobre > div {
+    max-height: 70rem;
+    max-width: 70rem;
+    min-height: 15rem;
+    min-width: 15rem;
 
+}
+#item-1{
+    text-align: right;
+}
+#item-3{
+    text-align: left;
+}
 .element-4 {
     background: rgba(0, 0, 0, 0.055);
 

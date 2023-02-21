@@ -1,6 +1,6 @@
 .main-galeria{
     width: 100%;
-    height: 900px;
+    height: 90rem;
     height: max-content;    
     position: relative;
     bottom: 0px;
@@ -13,18 +13,7 @@
     top: -1px;
 }
 
-.main-galeria-margin h1{
-    font-size: 4rem;
-    text-align: center;
-    color:black;
-    padding-bottom: 10px;
-}
-.main-galeria-margin > p{
-    font-size: 2rem;
-    text-align: center;
-    color:black;
-    padding-bottom: 50px;
-}
+
 
 .main-galeria-photos{
     width: 70%;
@@ -35,18 +24,18 @@
     justify-content: center;
     grid-template-columns: repeat(3,auto);
     grid-template-rows: repeat(3,auto);
-    gap: 20px;
+    gap: 2rem;
 }
 
-.g2{
-    position: relative;
-    padding-bottom: 40px;
-}
+
 
 .main-galeria-card{
-    height: 400px;
-    width: 400px;
-    background-color: cyan;
+    max-height: 70rem;
+    max-width: 70rem;
+    min-height: 15rem;
+    min-width: 15rem;
+
+    
     box-shadow: 1px 1px 20px rgb(223, 223, 223);
 }
 .main-galeria-card img{
@@ -55,10 +44,12 @@
 }
 .main-galeria-card img:hover{
     transition: 1s;
-    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+    box-shadow: 1px 1px 20px rgb(128, 128, 128);
     background-color: rgb(255, 255, 255);
 }
 
+
+/* !configurações de borda */
 .main-wave-2{
     position: relative;
     bottom:-2px;
@@ -72,4 +63,16 @@
 }
 
 
+.tag{
+    top: 5rem;
+    left: 5rem;
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    animation: tag-rotate 60s linear infinite;
+    filter: invert();
+    background-color: #0000005b;
+    padding: 1rem;
+    border-radius: 50%;
+}
 

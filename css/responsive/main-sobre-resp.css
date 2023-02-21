@@ -1,0 +1,50 @@
+/* !layout sobre responsivo */
+@media screen and (max-width:1024px) {
+    html{
+        font-size: 8px;
+    }
+    .main-section{
+        position: relative;
+        width: 100%;
+    }
+    .main-sobre {
+        width: 90%;
+        height: max-content;
+        margin: 0 auto;
+        justify-content: center;
+
+        display: grid;
+        grid-template-areas:
+            "sobre-ensaio"
+            "video-ensaio"
+            "sobre-fotografa"
+            "video-fotografa"
+        ;
+        gap: 5rem;
+
+        justify-content: center;
+        margin: 2rem;
+    }
+    .main-sobre div{
+        margin: 0 auto;
+        max-width: 70rem;
+        max-height: 70rem;
+
+    }
+
+    #item-1 {
+        grid-area: sobre-ensaio;
+    }
+
+    #item-2 {
+        grid-area: video-ensaio;
+    }
+
+    #item-3 {
+        grid-area: video-fotografa;
+    }
+
+    #item-4 {
+        grid-area: sobre-fotografa;
+    }
+}

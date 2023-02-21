@@ -19,3 +19,36 @@
 ? Bold 700 Italic
 
 */
+
+.title-h1-defaut-branco{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+.title-h2-defaut-branco{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+.title-p-defaut-branco{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.title-h1-defaut-preto{
+    color: black;
+    font-size: 5rem;
+    text-align: center;
+}
+.title-h2-defaut-preto{
+    color: black;
+    font-size: 5rem;
+    text-align: center;
+}
+.title-p-defaut-preto{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}

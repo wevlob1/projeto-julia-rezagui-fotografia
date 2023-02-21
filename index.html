@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<!-- ! para melhor clareza dos comentarios instale a extensão Better Comments -->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Júlia Rezagui | Fotógrafa Profissional</title>
+    <!-- ! importação dos estilos -->
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/main.css">
@@ -15,22 +17,28 @@
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/depoimentos.css">
     <link rel="stylesheet" href="css/main-servicos.css">
+    <!-- ! importação responsivo -->
+    <link rel="stylesheet" href="css/responsive/nav-bar-resp.css">
+    <link rel="stylesheet" href="css/responsive/main-sobre-resp.css">
+    <link rel="stylesheet" href="css/responsive/main-galeria-resp.css">
+    <link rel="stylesheet" href="css/responsive/slider-resp.css">
+    <link rel="stylesheet" href="css/responsive/depoimentos-resp.css">
+    <link rel="stylesheet" href="css/responsive/main-servicos-resp.css">
+    <!-- ! importação dos scripts -->
     <script src="js/script.js" defer></script>
 </head>
 
 <body>
     <header>
-        <!-- 
-            ! navbar 
-        -->
+        <!-- ! navbar -->
         <div class="navbar">
             <div class="navbar-logo">
                 <a href=""><img src="imgs/main/perfil1.png" alt=""></a>
             </div>
             <ul>
                 <li><a href="#">Início</a></li>
-                <li><a href="main-sobre">Sobre</a></li>
-                <li><a href="main-galeria">Galeria</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Galeria</a></li>
                 <li><a href="#">Pacotes e serviços</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
@@ -52,49 +60,54 @@
         </div>
     </header>
     <main>
-        <!-- 
-            ! navbar 
-        -->
-        <div class="main-section">
-            <div class="main-wave-1">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                    <path fill="#000000" fill-opacity="1"
-                        d="M0,128L48,138.7C96,149,192,171,288,176C384,181,480,171,576,144C672,117,768,75,864,80C960,85,1056,139,1152,154.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-                    </path>
-                </svg>
+        <!-- ! borda ondulada-->
+        <div class="main-wave-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#000000" fill-opacity="1"
+                    d="M0,128L48,138.7C96,149,192,171,288,176C384,181,480,171,576,144C672,117,768,75,864,80C960,85,1056,139,1152,154.7C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+                </path>
+            </svg>
+        </div>
 
-                <div class="element-4"></div>
-                <div class="element-5"></div>
-            </div>
-            <h1>Somos apaixonados por Fotografia</h1>
-            <div class="main-sobre">
-                <div class="main-img-end text-defaut">
-                    <h2>Sobre o Ensaio #1</h2>
-                    <h1>ENSAIO DESCONTRAIDO</h1>
-                    <p>Você já pensou em transmitir as suas principais características através das fotos?
+        <!-- !sessão sobre -->
+        <h1 class="title-h1-defaut-preto">Sobre</h1>
+        <p class="title-p-defaut-preto">Conheça um pouco mais sobre os ensaios e a fotografa</p>
+        <div class="main-section">
+        <div class="main-sobre">
+                <div id="item-1">
+                    <h2 class="text-defaut-h2">Sobre o Ensaio #1</h2>
+                    <h1 class="text-defaut-h1">Ensaio Descontraido</h1>
+                    <p class="text-defaut-p">Você já pensou em transmitir as suas principais características através das fotos?
                         Durante o nosso ensaio, vamos usar como base, a sua essência, aquilo que realmente te
                         representa pra fotografar!</p>
                 </div>
-                <div class="main-img-start">
+                <div id="item-2">
                     <video src="imgs/sobre/video-1.mp4" autoplay infinite muted controls>
                     </video>
                 </div>
-                <div class="main-img-end">
+                <div id="item-3">
                     <img src="imgs/sobre/1.png" alt="" srcset="">
                 </div>
-                <div class="main-img-start text-defaut">
-                    <h2>Sobre a fotógrafa #2</h2>
-                    <h1>Julia Rezagui </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolore, sint optio quibusdam adipisci
+                <div id="item-4">
+                    <h2 class="text-defaut-h2">Sobre a fotógrafa #2</h2>
+                    <h1 class="text-defaut-h1">Julia Rezagui </h1>
+                    <p class="text-defaut-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolore, sint optio quibusdam adipisci
                         cumque inventore harum impedit ducimus commodi ratione distinctio voluptatem ad, voluptatum
                         deleniti
                         error eligendi eum laboriosam.</p>
                 </div>
             </div>
         </div>
-        <!-- 
-            !
-        -->
+
+
+
+
+
+
+
+
+
+        <!-- ! galeria -->
         <div class="main-galeria">
             <div class="main-wave-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -104,8 +117,8 @@
                 </svg>
             </div>
             <div class="main-galeria-margin">
-                <h1>Galeria</h1>
-                <p>"confira alguns de nossos ensaios"</p>
+                <h1 class="title-h1-defaut-preto">Galeria</h1>
+                <p class="title-p-defaut-preto">"confira alguns de nossos ensaios"</p>
                 <div class="main-galeria-photos">
 
 
@@ -144,7 +157,7 @@
 
 
 
-
+                <!-- ! slider  -->
                 <div class="main-galeria-slider">
                     <img src="imgs/sobre/tag.png" class="tag" alt="">
                     <div class="slides">
@@ -224,11 +237,20 @@
                 </path>
             </svg>
         </div>
+
+
+
+
+
+
+
+
+        <!-- !depoimentos -->
         <div class="depoimentos-section">
-            <h1 id="title-h1">depoimentos</h1>
-            <p id="title-p">"O que alguns de nossos clientes dizem"</p>
+            <h1 class="title-h1-defaut-preto">depoimentos</h1>
+            <p  class="title-p-defaut-preto">"O que alguns de nossos clientes dizem"</p>
             <div class="depoimentos">
-                <div class="depoimentos-item">
+                <div class="depoimentos-item" id="depo-1">
                     <div class="depoimentos-item-img" id="card-1"></div>
                     <div class="depoimentos-item-comentario">
                         <h2>Júlia rezagui</h2>
@@ -238,7 +260,7 @@
                             beatae fugiat quidem expedita tempora voluptas aspernatur, porro repellendus!</p>
                     </div>
                 </div>
-                <div class="depoimentos-item">
+                <div class="depoimentos-item" id="depo-2">
                     <div class="depoimentos-item-img" id="card-2"></div>
                     <div class="depoimentos-item-comentario">
                         <h2>Giselle</h2>
@@ -250,15 +272,17 @@
                             vontade se eu quisesse testar alguma foto diferente, você topava tudo hahah"</p>
                     </div>
                 </div>
-                <div class="depoimentos-item">
+                <div class="depoimentos-item" id="depo-3">
                     <div class="depoimentos-item-img" id="card-3"></div>
                     <div class="depoimentos-item-comentario">
                         <h2>Amanda</h2>
                         <p class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p class="text">"Foi super divertido, fiquei super a vontade e amei o resultados das fotos, foi além das minhas expectativas, ela conseguiu tirar fotos em lugares simples, mas que deixaram as fotos maravilhosas."</p>
+                        <p class="text">"Foi super divertido, fiquei super a vontade e amei o resultados das fotos, foi
+                            além das minhas expectativas, ela conseguiu tirar fotos em lugares simples, mas que deixaram
+                            as fotos maravilhosas."</p>
                     </div>
                 </div>
-                <div class="depoimentos-item">
+                <div class="depoimentos-item" id="depo-4">
                     <div class="depoimentos-item-img" id="card-4"></div>
                     <div class="depoimentos-item-comentario">
                         <h2>lorem epsum</h2>
@@ -274,9 +298,6 @@
             </div>
 
         </div>
-
-
-
         <div class="main-wave-5">
             <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 210" version="1.1"
                 xmlns="http://www.w3.org/2000/svg">
@@ -292,12 +313,11 @@
             </svg>
         </div>
         <div class="main-servicos">
-
-            <h1>Pacotes de Serviço</h1>
-            <p>"Mais do que um trabalho, uma paixão por fotografia, uma memória inesquecível para você"</p>
+            <h1 class="title-h1-defaut-branco">Pacotes de Serviço</h1>
+            <p class="title-p-defaut-branco">"Mais do que um trabalho, uma paixão por fotografia, uma memória inesquecível para você"</p>
             <div class="main-servicos-pacotes">
-                <div class="main-servicos-pacote-valor standard">
-                    <h1>Standard</h1>
+                <div class="main-servicos-pacote-valor prata">
+                    <h1 class="servicos-title">Prata</h1>
                     <div class="valor-pacotes">
                         <hr>
 
@@ -307,13 +327,14 @@
                         <hr>
                         <p>1 ensaio</p>
                         <hr>
-                        <p class="beneficio-valor">De: R$<span class="beneficios-valor-cortado">349,99</span></p>
-                        <p class="beneficio-valor">Por: R$ <span class="beneficios-valor-preco">249,99</span></p>
+                        <!-- <p class="beneficio-valor">De: R$<span class="beneficios-valor-cortado">349,99</span></p> -->
+                        <p class="beneficio-valor">Por: R$ <span class="beneficios-valor-preco">299,99</span></p>
                     </div>
                     <button>contratar</button>
+                    
                 </div>
-                <div class="main-servicos-pacote-valor pro">
-                    <h1>Pro</h1>
+                <div class="main-servicos-pacote-valor ouro">
+                    <h1 class="servicos-title">Ouro</h1>
                     <div class="valor-pacotes">
                         <hr>
                         <p>20 fotos</p>
@@ -322,30 +343,27 @@
                         <hr>
                         <p>1 ensaio</p>
                         <hr>
-                        <p class="beneficio-valor">De: R$<span class="beneficios-valor-cortado">700,00</span></p>
-                        <p class="beneficio-valor">Por: R$ <span class="beneficios-valor-preco">300,00</span></p>
+                        <!-- <p class="beneficio-valor">De: R$<span class="beneficios-valor-cortado">700,00</span></p> -->
+                        <p class="beneficio-valor">Por: R$ <span class="beneficios-valor-preco">499,90</span></p>
                     </div>
                     <button>contratar</button>
                 </div>
-                <div class="main-servicos-pacote-valor supreme">
-                    <h1>Supreme</h1>
+                <div class="main-servicos-pacote-valor diamante">
+                    <h1 class="servicos-title">Diamante</h1>
                     <div class="valor-pacotes ">
                         <hr>
-
                         <p>50 fotos</p>
                         <hr>
                         <p>15 dias úteis de entrega</p>
                         <hr>
                         <p>1 ensaio</p>
                         <hr>
-                        <p class="beneficio-valor">De: R$<span class="beneficios-valor-cortado">3499,95</span></p>
-                        <p class="beneficio-valor">Por: R$ <span class="beneficios-valor-preco">2490,99</span></p>
+                        <!-- <p class="beneficio-valor">De: R$<span class="beneficios-valor-cortado">3499,95</span></p> -->
+                        <p class="beneficio-valor">Por: R$ <span class="beneficios-valor-preco">699,90</span></p>
                     </div>
                     <button>contratar</button>
                 </div>
             </div>
-            <div class="element-4"></div>
-            <div class="element-5"></div>
         </div>
         <!--
         <div class="main-contato">
