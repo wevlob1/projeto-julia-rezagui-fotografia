@@ -55,15 +55,15 @@
 }
 
 #card-1 {
-    background-image: url(../imgs/depoimentos/perfil.png);
+    background-image: url(../imgs/depoimentos/julia.png);
 }
 
 #card-2 {
-    background-image: url(../imgs/depoimentos/perfil.png);
+    background-image: url(../imgs/depoimentos/gisele.png);
 }
 
 #card-3 {
-    background-image: url(../imgs/depoimentos/perfil.png);
+    background-image: url(../imgs/depoimentos/amanda.png);
 }
 
 #card-4 {
@@ -89,7 +89,7 @@
     padding-bottom: 50px;
 }
 .stars {
-    padding-top: 20px;
+    padding: 20px 0px;
     line-height: 1px;
     text-align: center;
     font-size: 1.5rem;
