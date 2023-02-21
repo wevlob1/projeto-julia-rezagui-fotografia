@@ -1,0 +1,24 @@
+@media screen and (max-width:1024px) {
+    .main-galeria-slider {
+        display: grid;
+        width: 100%;
+        height: min-content;
+        /* !width:1240px height:766px */
+        margin: 2rem auto;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .bar {
+        width: 2rem;
+        height: 1rem;
+        border: 2px solid #f5f5dc;
+        margin: 6px;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 1px 1px 10px #f5f5dc;
+    }
+    .tag {
+        display: none;
+    }
+}

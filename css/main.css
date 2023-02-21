@@ -28,7 +28,7 @@
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     text-align: left;
-    font-size: 6rem;
+    font-size: 9rem;
     color: rgb(255, 255, 255);
 }
 
@@ -36,7 +36,7 @@
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     text-align: left;
-    font-size: 2.9rem;
+    font-size: 5rem;
     color: rgb(255, 255, 255);
 }
 
@@ -45,12 +45,12 @@
     font-style: italic;
     font-weight: 400;
     text-align: left;
-    font-size: 2rem;
+    font-size: 4rem;
     color: rgb(255, 255, 255);
 }
 
 .title-text-align h1 h2 {
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 
 /* configuração da imagem esquerda */
@@ -67,8 +67,8 @@
     background-image:url(../imgs/main/perfil1.png);
     background-position: center;
     background-size: cover;
-    width: 400px;
-    height: 400px;
+    width: 40rem;
+    height: 40rem;
     
 
     position: absolute;
@@ -81,8 +81,8 @@
 
 .element-2 {
     background-image: radial-gradient(#a0a0a0,#050505);
-    width: 300px;
-    height: 300px;
+    width: 30rem;
+    height: 30rem;
 
  
 
@@ -98,8 +98,8 @@
     /* background-image:url(../imgs/perfil1.png);
     background-position: center;
     background-size: cover; */
-    width: 400px;
-    height: 500px;
+    width: 40rem;
+    height: 50rem;
 
   
 
@@ -173,24 +173,3 @@
     right: 0px;
 }
 
-.tag{
-    top: 50px;
-    left: 50px;
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    animation: tag-rotate 60s linear infinite;
-    filter: invert();
-    background-color: #0000005b;
-    padding: 10px;
-    border-radius: 50%;
-}
-
-@keyframes tag-rotate {
-    0%{
-        rotate: 0deg;
-    }
-    100%{
-        rotate:360deg;
-    }
-}
