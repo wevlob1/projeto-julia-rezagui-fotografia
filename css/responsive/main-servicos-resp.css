@@ -1,0 +1,24 @@
+@media screen and (max-width:1024px) {
+    .main-servicos-pacotes{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto;
+
+        justify-content: center;
+        gap: 2rem;
+    }
+    .main-servicos-pacote-valor{
+        display: flex;
+        flex-direction: column;
+        max-height: 60rem;
+        min-width: 30rem;
+        background-color: rgba(184, 184, 184, 0.637);
+    }
+    .main-servicos-pacote-valor h1{
+        font-size: 5rem;
+        padding-top:5rem;
+    }
+    .main-servicos-pacote-valor p{
+        font-size: 3.5rem;
+    }
+}

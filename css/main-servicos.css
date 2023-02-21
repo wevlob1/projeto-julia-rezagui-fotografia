@@ -1,58 +1,59 @@
-.main-servicos{
-    height: 120vh;
+.main-servicos {
     width: 100%;
+    height: max-content;
     background-color: black;
-    position: relative;
-    overflow: hidden;
 }
 
-.main-wave-5{
+.main-wave-5 {
     margin-bottom: -2px;
 }
 
-.main-servicos h1{
+.servicos-title{
     font-size: 4rem;
     text-align: center;
 }
-.main-servicos p{
-    font-size: 2rem;
+
+.main-servicos p {
+    font-size: 2.5rem;
     text-align: center;
 }
 
 
 
-.main-servicos-pacotes{
-    margin-top: 5rem;
+.main-servicos-pacotes {
+
     display: grid;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: auto;
     justify-content: center;
     gap: 2rem;
 }
-.main-servicos-pacote-valor{
+
+.main-servicos-pacote-valor {
+    margin: 10rem auto;
     display: flex;
     flex-direction: column;
-    height: 60rem;
+    max-height: 60rem;
     width: 30rem;
     background-color: rgba(184, 184, 184, 0.637);
 }
 
-.main-servicos-pacote-valor h1{
+.main-servicos-pacote-valor h1 {
     font-size: 3rem;
-    padding-top:5rem;
+    padding-top: 5rem;
 }
 
 
 
 
-.valor-pacotes{
+.valor-pacotes {
     padding: 1rem 4rem;
 }
+
 .valor-pacotes p {
     text-align: center;
 }
-
-.main-servicos-pacote-valor > button{
+.main-servicos-pacote-valor > button {
     margin: 50px auto;
     width: 70%;
     height: 50px;
@@ -61,25 +62,28 @@
     font-size: 1.9rem;
     border-radius: 25px;
 }
-.beneficios-valor-cortado{
+
+.beneficios-valor-cortado {
     font-size: 2rem;
     text-decoration: line-through;
 }
-.beneficios-valor-preco{
+
+.beneficios-valor-preco {
     font-size: 3rem;
 }
 
 /* cores dos pacotes */
-.standard{
-    background-color: rgb(83, 83, 83);
-    color: white;
-}
-.pro{
-    background-color: #f5f5dc;
-    color: rgb(0, 0, 0)
+.prata {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to bottom, #bcc6cc, #eee, #bcc6cc);
 }
 
-.supreme{
-    background-color: rgba(29, 29, 29, 0.815);
-    color: white;
+.ouro {
+    background: linear-gradient(to bottom, #c39738, #deb761, #c39738);
+    color: rgb(0, 0, 0);
+}
+
+.diamante {
+    background: linear-gradient(to bottom, #7ef0ff, #eee, #43e9ff);
+    color: rgb(0, 0, 0)
 }

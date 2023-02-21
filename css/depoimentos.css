@@ -1,59 +1,3 @@
-.depoimentos-section {
-    width: 100%;
-    height: 80vh;
-    position: relative;
-}
-.depoimentos {
-    width: max-content;
-    height: max-content;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4,auto);
-    grid-template-rows: auto;
-
-    gap: 20px;
-    justify-content: center;
-    overflow-x: auto;
-}
-
-.depoimentos-item {
-    height: max-content;
-    width: 300px;
-    background-color: rgba(0, 0, 0, 0.671);
-
-    display: flex;
-    flex-direction: column;
-    box-shadow: 1px 1px 10px;
-}
-
-.depoimentos-item-img {
-    margin: 20px auto;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    box-shadow: 1px 1px 10px;
-}
-
-.depoimentos-item-comentario {
-    width: 90%;
-    height: 90%;
-    margin: 0 auto;
-}
-
-.depoimentos-item-comentario h2 {
-    color: #f5f5dc;
-    line-height: 30px;
-    text-align: center;
-    font-size: 2rem;
-}
-
-/*  */
-
-.depoimentos-item-img {
-    background-position: center;
-    background-size: cover;
-}
-
 #card-1 {
     background-image: url(../imgs/depoimentos/julia.png);
 }
@@ -71,6 +15,63 @@
 }
 
 
+.depoimentos-section {
+    width: 100%;
+    height: max-content;
+    margin: 0 auto;
+    position: relative;
+}
+/* !responsive */
+.depoimentos {
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: auto;
+
+    gap: 20px;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+
+/* !------------- */
+.depoimentos-item {
+    height: max-content;
+    width: 30rem;
+    background-color: rgba(0, 0, 0, 0.671);
+
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px;
+}
+
+.depoimentos-item-img {
+    margin: 2rem auto;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px;
+}
+
+.depoimentos-item-comentario {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+
+
+/*  */
+
+.depoimentos-item-img {
+    background-position: center;
+    background-size: cover;
+}
+
+
+
 #title-h1 {
     position: absolute;
     top: -10%;
@@ -79,17 +80,17 @@
     font-size: 4rem;
     text-align: center;
     color: black;
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
 }
 
 #title-p {
     font-size: 2rem;
     text-align: center;
     color: black;
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
 }
 .stars {
-    padding: 20px 0px;
+    padding: 2rem 0px;
     line-height: 1px;
     text-align: center;
     font-size: 1.5rem;
@@ -97,9 +98,9 @@
 }
 
 .text {
-    font-size: 1rem;
-    padding-top: 20px;
-    text-align: left;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+    text-align: justify;
     color: white;
     margin-bottom: 50px;
 }

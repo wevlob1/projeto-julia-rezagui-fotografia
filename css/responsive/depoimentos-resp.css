@@ -1,0 +1,56 @@
+@media screen and (max-width:1024px) {
+    .depoimentos {
+        width: 100%;
+        margin: 0 auto ;
+        display: grid;
+
+        grid-template-areas:
+            "a b"
+            "c d"
+        ;
+
+        grid-template-columns: auto auto;
+        gap: 20px;
+        justify-content: center;
+
+
+    }
+
+    .depoimentos-item {
+        height: max-content;
+        max-width: 50rem;
+        background-color: rgba(0, 0, 0, 0.671);
+
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 10px;
+    }
+
+    #depo-1 {
+        grid-area: a;
+    }
+
+    #depo-2 {
+        grid-area: b;
+    }
+
+    #depo-3 {
+        grid-area: c;
+    }
+
+    #depo-4 {
+        grid-area: d;
+    }
+}
+
+@media screen and (max-width:536px) {
+    .depoimentos {
+        grid-template-columns: auto;
+        grid-template-areas: 
+         "a"
+         "b"
+         "c"
+         "d"
+        ;
+    }
+}

@@ -13,18 +13,7 @@
     top: -1px;
 }
 
-.main-galeria-margin h1{
-    font-size: 4rem;
-    text-align: center;
-    color:black;
-    padding-bottom: 1rem;
-}
-.main-galeria-margin > p{
-    font-size: 2rem;
-    text-align: center;
-    color:black;
-    padding-bottom: 5rem;
-}
+
 
 .main-galeria-photos{
     width: 70%;
@@ -38,10 +27,7 @@
     gap: 2rem;
 }
 
-.g2{
-    position: relative;
-    padding-bottom: 4rem;
-}
+
 
 .main-galeria-card{
     max-height: 70rem;

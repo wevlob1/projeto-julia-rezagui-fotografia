@@ -6,9 +6,9 @@ body {
 
 .main-galeria-slider{
     width: 70%; 
+    height: min-content;
 
     margin: 2rem auto;
-    height: 76.6rem;
     overflow: hidden;
     position: relative;
 } 
@@ -19,7 +19,10 @@ body {
     height: 100%;
     width: 500%;
 }
-
+.g2{
+    position: relative;
+    padding-bottom: 4rem;
+}
 .navigation {
     display: flex;
     position: absolute;
