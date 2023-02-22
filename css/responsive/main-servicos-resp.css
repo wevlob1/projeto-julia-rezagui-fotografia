@@ -12,7 +12,7 @@
         flex-direction: column;
         max-height: 60rem;
         min-width: 30rem;
-        background-color: rgba(184, 184, 184, 0.637);
+    
     }
     .main-servicos-pacote-valor h1{
         font-size: 5rem;

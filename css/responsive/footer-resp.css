@@ -1,0 +1,17 @@
+@media  screen and (max-width:1024px) {
+    .footer-vertical-line{
+        display: none;
+    }
+    .footer-margin{
+        display: grid;
+        grid-template-columns: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-esq{
+
+        width: 100%;
+        margin: 10px auto;
+    }
+
+}
