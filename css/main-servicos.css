@@ -75,15 +75,16 @@
 /* cores dos pacotes */
 .prata {
     color: rgb(0, 0, 0);
-    background: linear-gradient(to bottom, #bcc6cc, #eee, #bcc6cc);
+    background-color:#f5f5dc;
 }
 
 .ouro {
-    background: linear-gradient(to bottom, #c39738, #deb761, #c39738);
     color: rgb(0, 0, 0);
+    background-color:#f5f5dc;
+    box-shadow: 1px 1px 30px rgb(255, 255, 255);
 }
 
 .diamante {
-    background: linear-gradient(to bottom, #7ef0ff, #eee, #43e9ff);
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
+    background-color:#f5f5dc;
 }
