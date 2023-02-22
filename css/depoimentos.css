@@ -89,6 +89,11 @@
     color: black;
     padding-bottom: 5rem;
 }
+.name{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
 .stars {
     padding: 2rem 0px;
     line-height: 1px;
