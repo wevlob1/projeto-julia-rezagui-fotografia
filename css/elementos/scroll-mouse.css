@@ -18,7 +18,7 @@
 }
 .container-mouse {
     position: absolute;
-    bottom: 0px;
+    bottom: 10rem;
     left: 50%;
     transform: translateX(-50%);
 }
