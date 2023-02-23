@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/depoimentos.css">
     <link rel="stylesheet" href="css/main-servicos.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/elementos/scroll-mouse.css">
     <!-- ! importação responsivo -->
     <link rel="stylesheet" href="css/responsive/nav-bar-resp.css">
     <link rel="stylesheet" href="css/responsive/main-sobre-resp.css">
@@ -26,6 +27,8 @@
     <link rel="stylesheet" href="css/responsive/depoimentos-resp.css">
     <link rel="stylesheet" href="css/responsive/main-servicos-resp.css">
     <link rel="stylesheet" href="css/responsive/footer-resp.css">
+    <link rel="stylesheet" href="css/responsive/scroll-mouse-resp.css">
+    <link rel="stylesheet" href="css/responsive/main-resp.css">
     <!-- ! importação font boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- ! importação dos scripts -->
@@ -34,12 +37,18 @@
 
 <body>
     <header>
+        <!-- !navbar-mobile -->
+        <div class="navbar-mobile">
+            <div class="icon-hamburger">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
         <!-- ! navbar -->
         <div class="navbar">
             <div class="navbar-logo">
                 <a href=""><img src="imgs/main/perfil1.png" alt=""></a>
             </div>
-            <ul>
+            <ul class="nav">
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Galeria</a></li>
@@ -60,6 +69,12 @@
                     <h2>Fotógrafa Profissional</h2>
                     <!-- <p>"Eternizando suas memorias em papel"</p> -->
                 </div>
+            </div>
+            <div class="container-mouse">
+                <span class="mouse-btn">
+                    <span class="mouse-scroll"></span>
+                </span>
+                <!-- <span class="container-mouse-text">Saiba Mais</span> -->
             </div>
         </div>
     </header>

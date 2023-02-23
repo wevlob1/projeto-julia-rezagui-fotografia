@@ -1,0 +1,27 @@
+@media screen and (max-width:1024px) {
+    .title-text-align h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        text-align: center;
+        font-size: 6rem;
+        color: rgb(255, 255, 255);
+    }
+    
+    .title-text-align h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        text-align: center;
+        font-size: 4rem;
+        color: rgb(255, 255, 255);
+    }
+    
+    .title-text-align p {
+        font-family: 'Crimson Text', serif;
+        font-style: italic;
+        font-weight: 400;
+        text-align: left;
+        font-size: 4rem;
+        color: rgb(255, 255, 255);
+    }
+    
+}
