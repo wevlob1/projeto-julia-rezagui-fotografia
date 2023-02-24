@@ -1,14 +1,29 @@
 @media screen and (max-width:1024px) {
-    .navbar-logo {
+    .navbar-mobile{
+        top: 0px;
+        height: 7rem;
+        width: 100%;
+        /* display: flex; */
+        align-items: center;
+        color: white;
         display: none;
+        
+    }
+    
+    @keyframes hidde-navbar {
+        0%{
+            top: -100%;
+        }
+        100%{
+            top: 414px;
+        }
     }
 
-    /* .navbar {
-        position: relative;
-    } */
 
+    .navbar-logo{
+        display: none;
+    }
     .navbar ul {
-        position: relative;
         display: flex;
         width: 100%;
         flex-direction: column;
@@ -18,19 +33,14 @@
     }
 
     .navbar li {
-        font-size: 3.5rem;
+        font-size: 5rem;
         justify-content: center;
         text-align: center;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.37)
     }
 
-    .navbar li:last-of-type {
-        padding-bottom: 3rem;
-    }
-
     .title {
-        position: relative;
         display: flex;
         flex-direction: column;
     }

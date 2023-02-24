@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/depoimentos.css">
     <link rel="stylesheet" href="css/main-servicos.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/elementos/scroll-mouse.css">
     <!-- ! importação responsivo -->
     <link rel="stylesheet" href="css/responsive/nav-bar-resp.css">
     <link rel="stylesheet" href="css/responsive/main-sobre-resp.css">
@@ -26,6 +27,8 @@
     <link rel="stylesheet" href="css/responsive/depoimentos-resp.css">
     <link rel="stylesheet" href="css/responsive/main-servicos-resp.css">
     <link rel="stylesheet" href="css/responsive/footer-resp.css">
+    <link rel="stylesheet" href="css/responsive/scroll-mouse-resp.css">
+    <link rel="stylesheet" href="css/responsive/main-resp.css">
     <!-- ! importação font boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- ! importação dos scripts -->
@@ -34,12 +37,18 @@
 
 <body>
     <header>
+        <!-- !navbar-mobile -->
+        <div class="navbar-mobile">
+            <div class="icon-hamburger">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
         <!-- ! navbar -->
         <div class="navbar">
             <div class="navbar-logo">
                 <a href=""><img src="imgs/main/perfil1.png" alt=""></a>
             </div>
-            <ul>
+            <ul class="nav">
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Galeria</a></li>
@@ -60,6 +69,12 @@
                     <h2>Fotógrafa Profissional</h2>
                     <!-- <p>"Eternizando suas memorias em papel"</p> -->
                 </div>
+            </div>
+            <div class="container-mouse">
+                <span class="mouse-btn">
+                    <span class="mouse-scroll"></span>
+                </span>
+                <!-- <span class="container-mouse-text">Saiba Mais</span> -->
             </div>
         </div>
     </header>
@@ -159,7 +174,7 @@
                     <div class="main-galeria-card">
                         <img src="imgs/sobre/slide-6.jpg" alt="" style="height: 100%;">
                     </div>
-                    <div class="main-galeria-card">
+                    <!-- <div class="main-galeria-card">
                         <img src="imgs/sobre/slide-7.jpg" alt="" style="height: 100%;">
                     </div>
                     <div class="main-galeria-card">
@@ -167,7 +182,7 @@
                     </div>
                     <div class="main-galeria-card">
                         <img src="imgs/sobre/slide-9.jpg" alt="" style="height: 100%;">
-                    </div>
+                    </div> -->
                 </div>
 
 
@@ -218,15 +233,24 @@
 
                 <div class="main-galeria-photos g2">
                     <div class="main-galeria-card">
-                        <img src="imgs/sobre/slide-10.png" alt="" style="height: 100%;">
+                        <img src="imgs/sobre/slide-11.png" alt="" style="height: 100%;">
                     </div>
                     <div class="main-galeria-card">
-                        <img src="imgs/sobre/slide-11.png" alt="" style="height: 100%;">
+                        <img src="imgs/sobre/slide-10.png" alt="" style="height: 100%;">
                     </div>
                     <div class="main-galeria-card">
                         <img src="imgs/sobre/slide-12.png" alt="" style="height: 100%;">
                     </div>
                     <div class="main-galeria-card">
+                        <img src="imgs/sobre/slide-13.jpg" alt="" style="height: 100%;">
+                    </div>
+                    <div class="main-galeria-card">
+                        <img src="imgs/sobre/slide-15.jpg" alt="" style="height: 100%;">
+                    </div>
+                    <div class="main-galeria-card">
+                        <img src="imgs/sobre/slide-14.jpg" alt="" style="height: 100%;">
+                    </div>
+                    <!-- <div class="main-galeria-card">
                         <img src="imgs/sobre/1.png" alt="" style="height: 100%;">
                     </div>
                     <div class="main-galeria-card">
@@ -234,16 +258,7 @@
                     </div>
                     <div class="main-galeria-card">
                         <img src="imgs/sobre/1.png" alt="" style="height: 100%;">
-                    </div>
-                    <div class="main-galeria-card">
-                        <img src="imgs/sobre/1.png" alt="" style="height: 100%;">
-                    </div>
-                    <div class="main-galeria-card">
-                        <img src="imgs/sobre/1.png" alt="" style="height: 100%;">
-                    </div>
-                    <div class="main-galeria-card">
-                        <img src="imgs/sobre/1.png" alt="" style="height: 100%;">
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -304,14 +319,11 @@
                 <div class="depoimentos-item" id="depo-4">
                     <div class="depoimentos-item-img" id="card-4"></div>
                     <div class="depoimentos-item-comentario">
-                        <h2 class="name">lorem epsum</h2>
+                        <h2 class="name">Flávia</h2>
                         <p class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id
-                            recusandae voluptatibus consequuntur voluptate fuga eveniet dolorum qui, fugit nisi, animi
-                            corrupti esse quae exercitationem tenetur dicta, distinctio quos inventore. Lorem ipsum
-                            dolor sit amet, consectetur adipisicing elit. Quos doloribus
-                            eligendi excepturi deleniti consectetur saepe pariatur labore velit ratione aperiam illo
-                            beatae fugiat quidem expedita tempora voluptas aspernatur, porro repellendus!</p>
+                        <p class="text">"Oiii Ju bom dia,
+                            To passando para agradecer o ensaio de ontem, eu amei e quero fazer sempre.<br>
+                            As fotos ficaram incríveis, foi a primeira vez que eu fiz esse tipo de ensaio e eu curti muito o processo. Não vejo a hora de te chamar para fazermos mais ❤"</p>
                     </div>
                 </div>
             </div>
@@ -418,8 +430,8 @@
                 <div class="footer-social">
                     <i class='bx bxl-instagram'><a href=""></a></i>
                     <i class='bx bxl-whatsapp'><a href=""></a></i>
-                    <i class='bx bxl-linkedin'><a href=""></a></i>
-                    <i class='bx bxl-github'><a href=""></a></i>
+                    <!-- <i class='bx bxl-linkedin'><a href=""></a></i>
+                    <i class='bx bxl-github'><a href=""></a></i> -->
                 </div>
                 <h1 class="text-footer-h1-white">Propriedade de Júlia Rezagui - Fotógrafa Profissional</h1>
                 <h2 class="text-footer-h2-white">Copyright 2023&copy; - Todos os direitos reservados</h1>

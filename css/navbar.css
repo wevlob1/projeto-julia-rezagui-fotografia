@@ -8,6 +8,9 @@
     width: 100%;
     background-color: #ffffd30a;
 }
+.icon-hamburger{
+    display: none;
+}
 .navbar-logo{
     display: flex;
     margin-left: 10%;

@@ -67,9 +67,10 @@
     background-image:url(../imgs/main/perfil1.png);
     background-position: center;
     background-size: cover;
-    width: 40rem;
-    height: 40rem;
-    
+    max-width: 40rem;
+    max-height: 40rem;
+    min-height: 35rem;
+    min-width: 35rem;
 
     position: absolute;
     top:50%;
