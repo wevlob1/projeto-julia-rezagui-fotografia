@@ -54,14 +54,19 @@ main{
     width: 100%;
 }
 #item-3 video,img{
-    height: 100%;
+    width: 100%;
 }
+#item-2 video,img,
+#item-3 video,img{
+    display: flex;
+    place-items: center;
+}
+
 .main-sobre > div {
     max-height: 70rem;
     max-width: 70rem;
     min-height: 15rem;
     min-width: 15rem;
-
 }
 #item-1{
     text-align: right;

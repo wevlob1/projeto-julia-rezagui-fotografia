@@ -1,24 +1,37 @@
 @media screen and (max-width:1024px) {
     .main-servicos-pacotes{
         margin: 0 auto;
+        height: max-content;
         display: grid;
         grid-template-columns: auto;
-
         justify-content: center;
-        gap: 2rem;
+        gap: 5rem 2rem;
+        padding: 5rem;
     }
     .main-servicos-pacote-valor{
-        display: flex;
-        flex-direction: column;
-        max-height: 60rem;
-        min-width: 30rem;
-    
+        margin: 0px;
+        height: max-content;
+        padding: 4rem;
+       
     }
-    .main-servicos-pacote-valor h1{
+    .main-servicos-pacote-valor h1,
+    .main-servicos-pacote-valor p {
+        padding: 10px;
+        margin: 0px;
+    }
+    .main-servicos-pacote-valor button {
+        padding-bottom: 10px;
+        margin: 0px auto;
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   /*  .main-servicos-pacote-valor h1{
         font-size: 5rem;
-        padding-top:5rem;
+        padding-top:1rem;
     }
     .main-servicos-pacote-valor p{
         font-size: 3.5rem;
-    }
+    } */
 }

@@ -1,14 +1,23 @@
 //! scroll detect
-const navbar = document.querySelector('.nav')
-const nav = document.querySelector('.navbar')
+const navbar = document.querySelector('.navbar')
+const navItems = document.querySelectorAll('.nav-items')
+
+
+
 window.addEventListener('scroll', () => {
-    console.log(window.scrollY);
-    if (scrollY >= 900){
-        navbar.classList.add('active');
-        nav.classList.add('active');
+    //console.log(window.scrollY);
+    if (scrollY >= 800) {
+        navbar.style.backgroundColor = "white";
+        navItems.forEach(link => {
+            link.style.color = 'black';
+          });
+        navbar.style.transition = 'background-color 0.5s ease-out';
     }
     else {
-        navbar.classList.remove('active');
-        nav.classList.remove('active');
-    } 
+        navbar.style.backgroundColor = "black";
+        navItems.forEach(link => {
+            link.style.color = 'white';
+          });
+        navbar.style.transition = 'background-color 0.5s ease-out';
+    }
 })
